@@ -9,7 +9,7 @@ interface Props {
 
 function Link(props: Props) {
   const { page, selectedPage, setSelectedPage } = props;
-  const lowerCasePage = page.toLowerCase();
+  const lowerCasePage = page?.toLowerCase();
 
   return (
     <AnchorLink

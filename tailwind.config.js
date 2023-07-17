@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx}"],
+  content: ["./src/**/*.{html,ts,tsx}"],
   mode: "jit",
   theme: {
     extend: {
@@ -22,7 +22,7 @@ module.exports = {
       }),
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
-        opensans: ["Open Sans", "sans-serif"],
+        raleway: ["Raleway", "sans-serif"],
       },
       content: {
         brush: "url('./assets/brush.png')",
