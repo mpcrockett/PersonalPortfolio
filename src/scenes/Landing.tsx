@@ -56,17 +56,14 @@ function Landing(props: Props) {
 						Melissa {""}
 						<span
 							className='xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
-              before:absolute before:-left-[25px] before:-top-[80px] before:z-[-1]'
+              before:absolute before:-left-[35px] before:-top-[20px] before:z-[-1]'
 						>
 							Crockett
 						</span>
 					</p>
 
-					<p className='mt-12 font-raleway mb-7 text-xs text-center md:text-start'>
-						With a proven track record of effectively leading teams and
-						delivering successful outcomes, I combine technical competency with
-						a passion for innovation, drive to tackle challenges with integrity
-						and grit, and a commitment to improvement.
+					<p className='mt-20 font-raleway font-light mb-7 text-sm text-center md:text-start'>
+					An innovative and versatile full-stack software engineer crafting elegant solutions for the digital domain.
 					</p>
 				</motion.div>
 

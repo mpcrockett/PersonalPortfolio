@@ -23,7 +23,7 @@ function NavBar(props: Props) {
 
         {/* DESKTOP NAV */}
         {isDesktop ? (
-          <div className="flex justify-between gap-16 font-raleway text-sm uppercase">
+          <div className="flex justify-between gap-16 font-raleway text-sm uppercase font-semibold">
             <Link
                 page="Home"
                 selectedPage={selectedPage}
