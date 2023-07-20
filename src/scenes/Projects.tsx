@@ -13,7 +13,7 @@ export type IProject = {
 
 function Projects() {
 	return (
-		<section className='min-w-full min-h-full flex flex-col'>
+		<section id="projects" className='min-w-full min-h-full flex flex-col'>
 			<div id='title-box' className='my-5'>
 				<motion.div
 					initial='hidden'
@@ -28,6 +28,7 @@ function Projects() {
 				>
 					<p className='font-lora font-semibold text-4xl mb-5 uppercase'>
 						Pro<span className='text-red'>jects</span>
+						<LineGradient width='w-1/2' />
 					</p>
 
 					<p className='mt-18 font-raleway font-light mb-7 text-sm text-center'>
