@@ -17,7 +17,7 @@ function About() {
 						visible: { opacity: 1, x: 0 },
 					}}
 				>
-					<p className='font-playfair font-semibold text-4xl mb-5'>
+					<p className='font-lora font-semibold text-4xl mb-5'>
 						About <span className='text-red'>Me</span>
 					</p>
 					<LineGradient width='w-1/3' />

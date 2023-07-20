@@ -50,11 +50,11 @@ function App() {
 				<Skills />
 			</div>
 			<LineGradient width={"w-full"} />
-			<div className='w-5/6 mx-auto'>
+			<div className='w-5/6 mx-auto md:h-full'>
 				<Projects />
 			</div>
       <LineGradient width={"w-full"} />
-			<div className='w-5/6 mx-auto'>
+			<div className='w-5/6 mx-auto md:h-full'>
 				<Contact />
 			</div>
 		</div>

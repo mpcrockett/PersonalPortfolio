@@ -23,6 +23,7 @@ module.exports = {
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
         raleway: ["Raleway", "sans-serif"],
+        lora: ["Lora", "serif"]
       },
       content: {
         brush: "url('./assets/brushstroke1.png')",

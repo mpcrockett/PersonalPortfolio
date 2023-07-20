@@ -1,77 +1,50 @@
 import { motion } from "framer-motion";
 import LineGradient from "../components/LineGradient";
 import Project from "../components/Project";
+import projectsData from "../data/projects.json";
 
-const container = {
-  hidden: {},
-  visible: {
-    transition: { staggerChildren: 0.2 }
-  }
-}
+export type IProject = {
+	id: string;
+	title: string;
+	description: string;
+	filename: string;
+	repoUrl: string
+};
 
 function Projects() {
 	return (
-		<section id='projects' className='pt-48 pb-48'>
-			{/* Headings */}
-			<motion.div
-				className='md:w-2/5 mx-auto text-center'
-				initial='hidden'
-				whileInView='visible'
-				viewport={{ once: true, amount: 0.5 }}
-				transition={{ duration: 0.5 }}
-				variants={{
-					hidden: { opacity: 0, y: -50 },
-					visible: { opacity: 1, y: 0 },
-				}}
-			>
-				<div>
-					<p className='font-playfair font-semibold text-4xl'>
-						<span className='text-red'>PRO</span>JECTS
-					</p>
-					<div className='flex justify-center mt-5'>
-						<LineGradient width='w-2/3' />
-					</div>
-				</div>
-				<p className='mt-10 mb-10'>
-					Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-					fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-					purus nec eget eleifend ut elit.
-				</p>
-			</motion.div>
-
-			{/* Projects */}
-			<div className='flex justify-center'>
+		<section className='min-w-full min-h-full flex flex-col'>
+			<div id='title-box' className='my-5'>
 				<motion.div
-					className='sm:grid sm:grid-cols-3 '
 					initial='hidden'
+					className='flex flex-col justify-center items-center'
 					whileInView='visible'
 					viewport={{ once: true, amount: 0.5 }}
-					variants={container}
+					transition={{ duration: 0.5 }}
+					variants={{
+						hidden: { opacity: 0, x: -50 },
+						visible: { opacity: 1, x: 0 },
+					}}
 				>
-          {/* Row One */}
-					<div className="flex justify-center text-center items-center p-10 bg-red max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold">
-            CLEAN, BEAUTIFUL, MODERN
-					</div>
-          <Project title="Project 1" />
-          <Project title="Project 2" />
+					<p className='font-lora font-semibold text-4xl mb-5 uppercase'>
+						Pro<span className='text-red'>jects</span>
+					</p>
 
-          {/* ROW 2 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
-          <Project title="Project 5" />
-
-          {/* ROW 3 */}
-          <Project title="Project 6" />
-          <Project title="Project 7" />
-          <div
-            className="flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
-          >
-            SMOOTH USER EXPERIENCE
-          </div>
-        </motion.div>
-      </div>
-    </section>
+					<p className='mt-18 font-raleway font-light mb-7 text-sm text-center'>
+						An innovative and versatile full-stack software engineer crafting
+						elegant solutions for the digital domain.
+					</p>
+				</motion.div>
+			</div>
+			<div
+				id='projects-grid'
+				className='py-50 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4'
+			>
+				{projectsData.map((proj) => (
+					<Project key={proj.id} project={proj} />
+				))}
+			</div>
+		</section>
 	);
 }
 
