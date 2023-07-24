@@ -9,6 +9,7 @@ import Skills from "./scenes/Skills";
 import Projects from "./scenes/Projects";
 import About from "./scenes/About";
 import Contact from "./scenes/Contact";
+import { motion } from "framer-motion";
 
 function App() {
 	const [selectedPage, setSelectedPage] = useState<string>("home");
@@ -17,7 +18,10 @@ function App() {
 
 	useEffect(() => {
 		const handleScroll = () => {
-			if (window.scrollY === 0) setIsTopOfPage(true);
+			if (window.scrollY === 0) {
+				setIsTopOfPage(true)
+				setSelectedPage("home")
+			}
 			if (window.scrollY !== 0) setIsTopOfPage(false);
 		};
 		window.addEventListener("scroll", handleScroll);
@@ -39,23 +43,33 @@ function App() {
 						setSelectedPage={setSelectedPage}
 					/>
 				)}
-				<Landing setSelectedPage={setSelectedPage} />
+				<motion.div onViewportEnter={() => setSelectedPage("home")}>
+          <Landing setSelectedPage={setSelectedPage} />
+        </motion.div>
 			</div>
 			<LineGradient width={"w-full"} />
 			<div className='w-5/6 mx-auto md:h-full'>
-				<About />
+				<motion.div onViewportEnter={() => setSelectedPage("about")}>
+          <About />
+        </motion.div>
 			</div>
 			<LineGradient width={"w-full"} />
 			<div className='w-5/6 mx-auto md:h-full'>
-				<Skills />
+				<motion.div onViewportEnter={() => setSelectedPage("skills")}>
+					<Skills />
+				</motion.div>
 			</div>
 			<LineGradient width={"w-full"} />
 			<div className='w-5/6 mx-auto md:h-full'>
-				<Projects />
+				<motion.div onViewportEnter={() => setSelectedPage("projects")}>
+					<Projects />
+				</motion.div>
 			</div>
       <LineGradient width={"w-full"} />
 			<div className='w-5/6 mx-auto md:h-full'>
-				<Contact />
+				<motion.div onViewportEnter={() => setSelectedPage("contact")}>
+					<Contact />
+				</motion.div>
 			</div>
 		</div>
 	);
