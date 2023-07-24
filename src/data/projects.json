@@ -17,7 +17,7 @@
   "id": "3",
   "title": "E-commerce Server",
   "description": "I created a robust RESTful API and server for a cutting-edge e-commerce platform, employing Node.js and Express within the MVC architecture. To ensure data integrity and efficiency, I designed and implemented a PostgreSQL database, skillfully utilizing database migrations. To facilitate seamless interactions between Controllers and the database, I developed custom Models. User authentication was fortified with the implementation of JSON Web Tokens (JWTs), ensuring secure access, while data-validation middleware with Joi bolstered data integrity. Maintaining a commitment to code quality, I conducted comprehensive integration and unit tests, achieving an impressive 98% code coverage. Furthermore, I prioritized accessibility through extensive API documentation using Swagger.",
-  "filename": "",
+  "filename": "server.jpg",
   "repoUrl": "https://github.com/mpcrockett/ecommerceapp"
 },
 {
