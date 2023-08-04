@@ -9,6 +9,7 @@ export type IProject = {
 	description: string;
 	filename: string;
 	repoUrl: string
+	tags: Array<string>
 };
 
 function Projects() {

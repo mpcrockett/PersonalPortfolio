@@ -4,27 +4,31 @@
   "title": "Daily Hit for Reddit",
   "description": "I developed a captivating MERN stack application that leverages the official Reddit API to deliver an immersive user experience. This app enables users to engage with their preferred subreddits, offering seamless upvoting and downvoting of posts within a sleek and intuitive Material UI card-based interface. To ensure smooth user interactions, I implemented robust state management with Redux and Redux Toolkit, providing a seamless experience. For secure authentication, I established an Express server integrated with session cookies on the frontend, while efficiently storing tokens in MongoDB. To comply with official Reddit OAuth standards and API rules, I skillfully implemented Reddit OAuth, ensuring a secure and reliable user authentication process.",
   "filename": "dailyHit.png",
-  "repoUrl": "https://github.com/mpcrockett/daily-hit-for-reddit"
+  "repoUrl": "https://github.com/mpcrockett/daily-hit-for-reddit",
+  "tags": ["MongoDB", "React", "Node.js", "Oauth2", "Material UI", "Redux", "Javascript", "Express", "Express Session", "Webpack", "Mongoose"]
 },
 {
   "id": "2",
   "title": "Lane One Running",
   "description": "I developed a PERN stack application for a fictionalized running store, creating an efficient and dynamic user experience using Typescript and Vite. The app's elegant and intuitive user interface was implemented using Chakra UI. For user authentication, I integrated both a username/password strategy and Google Open ID for seamless login options. The shopping cart functionality was built, and payment processing was integrated using the Stripe API. To manage cart and user state, I utilized Redux and Redux Toolkit. Navigation throughout the app was made smooth with React-Router-Dom, and custom data loaders were employed for fetching product information. For optimal performance, I designed and optimized a PostgreSQL database, handling product information, user details, and orders. Throughout development, I utilized migrations to implement the database structure and followed MVC architecture for enhanced functionality in the RESTful Express server with session management.",
   "filename": "laneOne.png",
-  "repoUrl": "https://github.com/mpcrockett/LaneOneRunning"
+  "repoUrl": "https://github.com/mpcrockett/LaneOneRunning",
+  "tags": ["PostgreSQL", "React", "Node.js", "Stripe API", "Chakra UI", "Redux", "Typescript", "Javascript", "Express", "Express Session", "Formik", "Vite", "Google Open ID", "MVC Architecture"]
 },
 {
   "id": "3",
   "title": "E-commerce Server",
   "description": "I created a robust RESTful API and server for a cutting-edge e-commerce platform, employing Node.js and Express within the MVC architecture. To ensure data integrity and efficiency, I designed and implemented a PostgreSQL database, skillfully utilizing database migrations. To facilitate seamless interactions between Controllers and the database, I developed custom Models. User authentication was fortified with the implementation of JSON Web Tokens (JWTs), ensuring secure access, while data-validation middleware with Joi bolstered data integrity. Maintaining a commitment to code quality, I conducted comprehensive integration and unit tests, achieving an impressive 98% code coverage. Furthermore, I prioritized accessibility through extensive API documentation using Swagger.",
   "filename": "server.jpg",
-  "repoUrl": "https://github.com/mpcrockett/ecommerceapp"
+  "repoUrl": "https://github.com/mpcrockett/ecommerceapp",
+  "tags": ["PostgreSQL", "Node.js", "Integration Testing", "Javascript", "Express", "Express-Session", "MVC Architecture", "Database Migrations", "User Authentication"]
 },
 {
   "id": "4",
   "title": "Flirtify",
   "description": "I created Flirtify, a prototypal, web-based dating app developed with Angular. It provides users with a dynamic and engaging experience. Working with an ASP.NET back-end and following the MVC architecture patterns, I ensuring efficient handling of user interactions. To optimize data management, I employed Entity Framework, enabling Flirtify to seamlessly interact with the Sqlite database, making it a robust and scalable data solution. The app's sleek and modern user interface, built on Bootstrap, reflects my dedication to creating a visually appealing and user-friendly experience. Throughout development, I prioritized user-centric design and seamless functionality.",
   "filename": "flirtify.png",
-  "repoUrl": "https://github.com/mpcrockett/dating-app"
+  "repoUrl": "https://github.com/mpcrockett/dating-app",
+  "tags": ["Angular", "Typescript", "ASP.NET", "Entitiy Framework", "C#", "SQLite", "Bootstrap", "MVC Architecture"]
 }
 ]
