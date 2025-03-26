@@ -26,7 +26,7 @@ module.exports = {
         raleway: ["Raleway", "sans-serif"],
         lora: ["Lora", "serif"]
       },
-      content: {
+      content: {  
         brush: "url('./assets/brushstroke1.png')",
       },
     },
