@@ -38,7 +38,7 @@ function About() {
 					}}
 				>
 					<p className='mt-4 font-raleway mb-2 text-s text-center md:text-start max-w-[850px]'>
-					I’m a Full Stack Software Engineer with a focus on JavaScript and TypeScript.
+					I am a Full Stack Software Engineer with a focus on JavaScript and TypeScript.
 					I bring empathy, collaboration, and attention to detail to my work—skills shaped by a decade as a collegiate non-profit chaplain.
 					My background in leadership and project management complements my technical expertise.
 					With integrity, grit, and a growth mindset, I will bring real value to your engineering team.
