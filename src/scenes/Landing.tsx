@@ -62,7 +62,7 @@ function Landing(props: Props) {
 						</span>
 					</p>
 
-					<p className='mt-20 font-raleway font-light mb-7 text-sm text-center md:text-start'>
+					<p className='mt-20 font-raleway font-light mb-7 text-m text-center md:text-start'>
 					An innovative and versatile full-stack software engineer crafting elegant solutions for the digital domain.
 					</p>
 				</motion.div>

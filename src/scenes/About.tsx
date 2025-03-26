@@ -3,7 +3,7 @@ import LineGradient from "../components/LineGradient";
 
 function About() {
 	return (
-		<section id='about' className='pt-10 pb-24'>
+		<section id='about' className='pt-10 pb-50'>
 			<div className='z-30 basis-2/5 mt-12 md:mt-32'>
 				{/* Heading */}
 				<motion.div
@@ -37,29 +37,18 @@ function About() {
 						visible: { opacity: 1, x: 0 },
 					}}
 				>
-					<p className='mt-12 font-raleway mb-7 text-xs text-center md:text-start max-w-[850px]'>
-						After almost a decade in collegiate non-profit work, I have
-						transitioned into software development career and seek to utilize my
-						organizational leadership and project management skills in a new and
-						challenging domain. As a hard-working, quick learner with a
-						self-taught background, I believe that my integrity, grit,
-						collaborative mindset, and desire for growth would bring great value
-						to your engineering team.{" "}
+					<p className='mt-4 font-raleway mb-2 text-s text-center md:text-start max-w-[850px]'>
+					I’m a Full Stack Software Engineer with a focus on JavaScript and TypeScript.
+					I bring empathy, collaboration, and attention to detail to my work—skills shaped by a decade as a collegiate non-profit chaplain.
+					My background in leadership and project management complements my technical expertise.
+					With integrity, grit, and a growth mindset, I will bring real value to your engineering team.
 					</p>
-					<p className='mt-12 font-raleway mb-7 text-xs text-center md:text-start max-w-[850px]'>
-						As a full-stack developer, I am proficient with JavaScript,
-						TypeScript, HTML, and CSS. I am strong in React, Redux, and other
-						Javascript-based frameworks and libraries, and I am experienced in
-						designing and building front-end applications and features. I also
-						have expertise in creating RESTful APIs and working with back-end
-						server technologies such as Node.js, Express, ASP.NET, session
-						management, and MVC architecture. Additionally, I am experienced in
-						database design, utilizing PostgreSQL and managing schema changes
-						through migrations, as well as working with NoSQL databases like
-						MongoDB. Furthermore, I am well-versed in debugging, refactoring,
-						version control, unit and integration testing, TDD, and CI/CD.
+					<p className='mt-4 font-raleway mb-2 text-s text-center md:text-start max-w-[850px]'>
+					I work across the stack with tools like React, React Native, Redux, Next.js, and Expo. 
+					On the backend, I build RESTful APIs with Express in Node.js and specialize in PostgreSQL, using both raw SQL and Prisma. 
+					I also have experience with Python and C#, and I am skilled in automated testing, database design, security, debugging, version control, and CI/CD.
 					</p>
-					<p className='mt-12 font-raleway mb-7 text-xs text-center md:text-start max-w-[850px]'>
+					<p className='mt-4 font-raleway mb-2 text-s text-center md:text-start max-w-[850px]'>
 						What sets me apart is my relentless pursuit of learning and adopting
 						new technologies and skills. I am constantly pushing the boundaries
 						of my knowledge, whether through studying documentation or
@@ -70,10 +59,7 @@ function About() {
 						nearly decade-long experience in the non-profit sector has honed my
 						leadership and interpersonal skills.
 					</p>
-					<p className='mt-12 font-raleway mb-7 text-xs text-center md:text-start max-w-[850px]'>
-						I look forward to hearing from you.
-					</p>
-					<p className='mt-12 font-raleway mb-7 text-xs text-center md:text-start max-w-[850px]'><a target="_blank" rel="noreferrer noopener" href="https://drive.google.com/file/d/1Zr1i0hXHRST6OHQKgB6fcJzDbSuZi6cT/view?usp=sharing">Check out my resume here</a></p>
+					<p className='mt-12 font-raleway mb-7 text-xs text-center md:text-start max-w-[850px]'><a target="_blank" rel="noreferrer noopener" href="https://drive.google.com/file/d/1RtPdkw8OyGB9UMyixUWoSOxYqZbc_5ap/view?usp=sharing">Check out my resume here</a></p>
 				</motion.div>
 			</div>
 		</section>

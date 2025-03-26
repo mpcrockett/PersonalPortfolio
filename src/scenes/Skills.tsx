@@ -72,7 +72,7 @@ function Skills() {
           <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
         </div>
         <p className="mt-5 text-xs">
-        Javascript, Typescript, C#, SQL, HTML, CSS
+        Javascript, Typescript, C#, Python, SQL, HTML, CSS
         </p>
       </motion.div>
 
@@ -97,7 +97,7 @@ function Skills() {
           <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
         </div>
         <p className="mt-5 text-xs">
-         React, Angular, Redux, Jest, Webpack, Vite, Axios, Mocha Next.js, ChakraUI, MaterialUI, Bootstrap, TailwindCSS
+         React, React-Native, NextJS, Expo, Angular, Redux, Jest, Webpack, Vite, Axios, Mocha, ChakraUI, MaterialUI, Bootstrap, TailwindCSS
         </p>
       </motion.div>
 
@@ -122,7 +122,7 @@ function Skills() {
           <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
         </div>
         <p className="mt-5 text-xs">
-          Express, Express-Session, Node.js, Mongoose, Passport, ASP.NET, .NET, Entity Framework, PostgreSQL, MongoDB, psql, Sqlite
+          Express, Express-Session, NodeJS, Mongoose, Passport, ASP.NET, .NET, Entity Framework, PostgreSQL, MongoDB, psql, Sqlite
         </p>
       </motion.div>
     </div>
